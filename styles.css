@@ -1,10 +1,43 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: rgb(60, 69, 70);
+    padding: 26px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    
+
+}
+
+.btn-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.screen{
+    height: 50px;
+    border-radius: 12px;
+    border-width: 0px;
+    margin-bottom: 16px;
+}
+
 .btn{
     width:70px;
     height:70px;
     padding: 0px;
+    border-radius: 10px;
+    border-width: 0px;
 }
 
 img{
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
 }
