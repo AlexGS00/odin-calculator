@@ -37,8 +37,13 @@
     padding: 0px;
     border-radius: 10px;
     border-width: 0px;
+    background-color: rgb(225, 232, 238);
 }
 
+.operator{
+    background-color: rgb(253, 190, 16);
+}
+  
 img{
     height: 40px;
     width: 40px;
