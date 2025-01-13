@@ -27,6 +27,8 @@
     border-radius: 12px;
     border-width: 0px;
     margin-bottom: 16px;
+    background-color: azure;
+    text-align: end;
 }
 
 .btn{
