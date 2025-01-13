@@ -27,8 +27,12 @@
     border-radius: 12px;
     border-width: 0px;
     margin-bottom: 16px;
+    padding-right: 10px;
+    font-size: 32px;
     background-color: azure;
-    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
 }
 
 .btn{
