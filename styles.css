@@ -36,12 +36,18 @@
 }
 
 .btn{
+    font-size: 26px;
+    font-weight: 100;
     width:70px;
     height:70px;
     padding: 0px;
     border-radius: 10px;
     border-width: 0px;
     background-color: rgb(225, 232, 238);
+}
+
+.big-btn{
+    flex: 1 0 auto;
 }
 
 .operator{
