@@ -29,6 +29,16 @@ function operate(operator, a, b){
     }
 }
 
+function calculate(){
+    let ans = operate(op, parseFloat(num1), parseFloat(num2));
+            ans = Math.round(ans * 10000) / 10000;
+            lastPressedOperator.style.backgroundColor = "rgb(253, 190, 16)";
+            screen.textContent = ans;
+            num1 = ans;
+            num2 = "";
+            op = ""
+}
+
 let num1 = "";
 let num2 = ""
 let op = "";
@@ -77,13 +87,7 @@ function handleInput(event, input){
             break;
         case "=":
             if(num1 && num2 && op){
-               let ans = operate(op, parseFloat(num1), parseFloat(num2));
-               ans = Math.round(ans * 10000) / 10000;
-               lastPressedOperator.style.backgroundColor = "rgb(253, 190, 16)";
-               screen.textContent = ans;
-               num1 = ans;
-               num2 = "";
-               op = ""
+               calculate()
             }
             break;
         case "+":
