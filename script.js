@@ -94,6 +94,9 @@ function handleInput(event, input){
         case "-":
         case "*":
         case "/":
+            if(num1 && num2 && op){
+                calculate()
+            }
             op = input;
             let curButton = event.target;
             lastPressedOperator.style.backgroundColor = "rgb(253, 190, 16)";
